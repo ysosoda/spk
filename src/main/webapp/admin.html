@@ -1,0 +1,985 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>시큐어링크 SPK</title>
+
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<link href="style/style.css" rel='stylesheet' type='text/css'/>
+	<link href="style/font.css" rel='stylesheet' type='text/css'/>
+
+	<script language="javascript" type="text/javascript">
+		
+
+		$(document).ready(function(){
+			$('.admin-menu-list').mouseover(function(){
+				$(this).find('.admin-menu-list-name').css('color', '#dd0831');
+				$(this).find('.admin-pop').stop().show(); 
+			});
+
+			$('.admin-menu-list').mouseout(function(){
+				$(this).find('.admin-menu-list-name').css('color', '#5a5a5a');
+				$(this).find('.admin-pop').stop().hide(); 
+			});
+
+		});
+	</script>
+
+</head>
+
+<body >
+
+<div class="wrap">
+
+	<!----------------------------------------- header s -->
+	<div class="header">
+		<div class="header-inner">
+				<h1><a href="index.html"><img src="images/logo.png" alt=""/></a></h1>			
+				<span class="header-txt1"><img src="images/header_txt1.png" alt=""/></span>
+				<span class="header-txt2"><img src="images/header_txt2.png" alt=""/></span> 
+		</div>
+	</div>
+	<!----------------------------------------- header e -->
+
+	<!----------------------------------------- menu s -->
+	<div class="menu">
+		<div class="menu-inner">
+				<div class="menu-row">
+					<div class="menu-c"><a href="index.html">소개</a></div>
+					<div class="menu-c"><a href="main_function.html">주요기능</a></div>
+					<div class="menu-c"><a href="qna.html">주요 고객질문</a></div>
+					<div class="menu-c"><a href="client.html">클라이언트</a></div>
+					<div class="menu-c"><a href="client_menual.html">클라이언트 매뉴얼</a></div>
+					<div class="menu-c active"><a href="admin.html">관리자</a></div>
+					<div class="menu-c"><a href="admin_menual.html">관리자 매뉴얼</a></div>
+				</div> 
+		</div>
+	</div>
+	<!----------------------------------------- menu e -->
+
+	<!----------------------------------------- container s -->
+	<div class="container">
+		<div class="container-inner">
+				<!-- admin-wrap s -->
+				<div class="admin-wrap">
+						
+						<div class="gallery-wrap">
+							<div class="img-full">
+								<img src="images/gallery_img.png" alt=""/>
+							</div>
+							<div class="gallery-content">
+								<p><img src="images/gallery_txt_admin.png" alt="" /></p>
+								<div>
+									<span>개인정보보호솔루션(SPK)</span><br/>
+									업무 효율성을 저해하지 않는 편의성과 관리 실효성을 극대화
+								</div>
+							</div>
+						</div>
+
+
+						<div class="admin-content">
+							<div class="admin-content-inner">
+									
+									<!-- 1_admin-menu s -->
+									<div class="admin-menu">
+											<div class="admin-menu-title">
+												관리
+											</div>
+
+											<div class="admin-menu-block admin-menu-block-first">
+													<div class="admin-menu-block-inner">
+
+															<div class="admin-menu-name">조직관리 </div>
+															
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 부서/사용사 관리</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">부서/사용자 관리 </p>
+																				<div class="tooltip-pop-conts">
+																					부서 및 사용자에 대한 추가, 수정 삭제
+																					<span>
+																						<a href="adminMenual.html#m1_1_1" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 사용자 배치 등록</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">사용자 배치 등록</p>
+																				<div class="tooltip-pop-conts">
+																					다수의 사용자를 지정된 양식에 맞게 입력 등록
+																					<span>
+																						<a href="adminMenual.html#m1_1_2" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+													</div>
+											</div>
+
+											<div class="admin-menu-block">
+													<div class="admin-menu-block-inner">
+
+															<div class="admin-menu-name">계정/사업장 관리 </div>
+															
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 계정 관리</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">계정관리 </p>
+																				<div class="tooltip-pop-conts">
+																					관리자 계정에 대한 수정
+																					<span>
+																						<a href="adminMenual.html#m1_2_1" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 사업장 관리</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">사업장 관리</p>
+																				<div class="tooltip-pop-conts">
+																					사업장 정보를 수정
+																					<span>
+																						<a href="adminMenual.html#m1_2_2" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+													</div>
+											</div>
+
+											<div class="admin-menu-block">
+													<div class="admin-menu-block-inner">
+
+															<div class="admin-menu-name">클라이언트 관리 </div>
+															
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 클라이언트 설정</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">클라이언트 설정 </p>
+																				<div class="tooltip-pop-conts">
+																					클라이언트 정책에 재한 상세(검출처리, 워터마크, 매체제어, 네트워크 제어 등) 설정
+																					<span>
+																						<a href="adminMenual.html#m1_3_1" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 사용자 공지</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">사용자 공지</p>
+																				<div class="tooltip-pop-conts">
+																					사용자별 부서별 공지를 등록, 수정, 삭제 
+																					<span>
+																						<a href="adminMenual.html#m1_3_2" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 사용자 로그</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">사용자 로그</p>
+																				<div class="tooltip-pop-conts">
+																					사용자 로그인, 로그아웃에 대한 로그 조회
+																					<span>
+																						<a href="adminMenual.html#m1_3_3" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+													</div>
+											</div>
+
+											<div class="admin-menu-block">
+													<div class="admin-menu-block-inner">
+
+															<div class="admin-menu-name">검사 관리 </div>
+															
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 강제검사</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">강제검사</p>
+																				<div class="tooltip-pop-conts">
+																					사용자별, 부서별 지정된 일시에 종료할 수 없는 검사 설정
+																					<span>
+																						<a href="adminMenual.html#m1_4_1" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 예약검사</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">예약검사</p>
+																				<div class="tooltip-pop-conts">
+																					사용자별, 부서별 지정된 일시에 종료할 수 있는 검사 설정
+																					<span>
+																						<a href="adminMenual.html#m1_4_2" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+													</div>
+											</div>
+
+											<div class="admin-menu-block">
+													<div class="admin-menu-block-inner">
+
+															<div class="admin-menu-name">결재 관리 </div>
+															
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 결재자 설정</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">결재자 설정</p>
+																				<div class="tooltip-pop-conts">
+																					복호화 권한이 없는 사용자의 결재자를 설정
+																					<span>
+																						<a href="adminMenual.html#m1_5_1" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+													</div>
+											</div>
+
+											<div class="admin-menu-block admin-menu-block-border-none">
+													<div class="admin-menu-block-inner">
+
+															<div class="admin-menu-name">DB 보안 관리</div>
+															
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; DB 보안 설정</p>
+															</div>
+
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; DB 보안 로그</p>
+															</div>
+
+													</div>
+											</div>
+
+
+									</div>
+									<!-- 1_admin-menu e -->
+
+
+									<!-- 2_admin-menu s -->
+									<div class="admin-menu admin-menu-wider">
+											<div class="admin-menu-title">
+												조회
+											</div>
+
+											<div class="admin-menu-block admin-menu-block-first">
+													<div class="admin-menu-block-inner">
+
+															<div class="admin-menu-name">검사 </div>
+															
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 검사 목록</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">검사 목록</p>
+																				<div class="tooltip-pop-conts">
+																					실시간검사, 강제검사, 예약검사, 일반검사 등 검사 데이터 조회 
+																					<span>
+																						<a href="adminMenual.html#m2_1_1" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+													</div>
+											</div>
+
+											<div class="admin-menu-block">
+													<div class="admin-menu-block-inner">
+
+															<div class="admin-menu-name">검출</div>
+															
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 검출 목록</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">검출 목록</p>
+																				<div class="tooltip-pop-conts">
+																					검사 시 개인정보가 검출된 데이터 상세(시간, 파일경로, 파일명, 검출 후 처리, 패턴정보등) 조회
+																					<span>
+																						<a href="adminMenual.html#m2_2_1" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+													</div>
+											</div>
+
+											<div class="admin-menu-block">
+													<div class="admin-menu-block-inner">
+
+															<div class="admin-menu-name">실시간 감시</div>
+															
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 파일 감시 목록</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">파일 감시 목록</p>
+																				<div class="tooltip-pop-conts">
+																					파일에 대한 강제 암호화, 복호화, 출력등에 대한 조회
+																					<span>
+																						<a href="adminMenual.html#m2_3_1" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 출력목록</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">출력목록</p>
+																				<div class="tooltip-pop-conts">
+																					암호화 파일 출력 데이터(사용자, 출력파일, 출력 프린터 명, 일시) 조회
+																					<span>
+																						<a href="adminMenual.html#m2_3_2" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 매체/네트워크 제어 목록</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">매체/네트워크제어 목록</p>
+																				<div class="tooltip-pop-conts">
+																					매체/네트워크 로그 제어로 설정된 사용자에 대해 각 유형에 맞는 파일 로그 조회
+																					<span>
+																						<a href="adminMenual.html#m2_3_3" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+															
+
+													</div>
+											</div>
+
+											<div class="admin-menu-block">
+													<div class="admin-menu-block-inner">
+
+															<div class="admin-menu-name">결재 </div>
+															
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 결재 목록</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">결재 목록</p>
+																				<div class="tooltip-pop-conts">
+																					복호화 결재 시 결재 상황을 조회
+																					<span>
+																						<a href="adminMenual.html#m2_4_1" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+													</div>
+											</div>
+
+											<div class="admin-menu-block">
+													<div class="admin-menu-block-inner">
+
+															<div class="admin-menu-name">랜섬웨어 </div>
+															
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 검출 목록</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">검출 목록</p>
+																				<div class="tooltip-pop-conts">
+																					랜섬웨어 방지 설정된 사용자 PC에서 랜섬웨어로 의심되는 상황을 인지한 경우 해당 파일명 과 일시 조회
+																					<span>
+																						<a href="adminMenual.html#m2_5_1" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+													</div>
+											</div>
+
+									</div>
+									<!-- 2_admin-menu e -->
+
+
+									<!-- 3_admin-menu s -->
+									<div class="admin-menu ">
+											<div class="admin-menu-title">
+												통계
+											</div>
+
+											<div class="admin-menu-block admin-menu-block-first">
+													<div class="admin-menu-block-inner">
+
+															<div class="admin-menu-name">기간별 </div>
+															
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 검사 현황</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">검사 현황</p>
+																				<div class="tooltip-pop-conts">
+																					기간별로 검사를 몇 번 수행하였는지에 대한 현황을 그래프로 조회
+																					<span>
+																						<a href="adminMenual.html#m3_1_1" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+															
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 검출 현황</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">검출현황(기간별)</p>
+																				<div class="tooltip-pop-conts">
+																					기간별로 각 검사별 검출 데이터 현황을 그래프로 조회
+																					<span>
+																						<a href="adminMenual.html#m3_1_2" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+													</div>
+											</div>
+
+											<div class="admin-menu-block">
+													<div class="admin-menu-block-inner">
+
+															<div class="admin-menu-name">조직별</div>
+															
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 클라이언트 설치 현황</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">클라이언트 설치현황(조직별)</p>
+																				<div class="tooltip-pop-conts">
+																					사업장, 부서별로 클라이언트 설치,제거 현황을 그래프로 조회
+																					<span>
+																						<a href="adminMenual.html#m3_2_1" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 패턴 검출 현황</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">패턴검출 현황(조직별)</p>
+																				<div class="tooltip-pop-conts">
+																					사업장, 부서, 사용자별 검출 패턴별 검출 건수를 그래프로 조회
+																					<span>
+																						<a href="adminMenual.html#m3_2_2" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 파일 유형 검출 현황</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">파일유형 검출현황(조직별)</p>
+																				<div class="tooltip-pop-conts">
+																					사업장, 부서, 사용자별 파일유형별 검출 건수를 그래프로 조회
+																					<span>
+																						<a href="adminMenual.html#m3_2_3" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+													</div>
+											</div>
+
+											<div class="admin-menu-block">
+													<div class="admin-menu-block-inner">
+
+															<div class="admin-menu-name">패턴별</div>
+															
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 부서 검출 현황</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">부서검출현황(패턴별)</p>
+																				<div class="tooltip-pop-conts">
+																					각 패턴별 검출 건수를 부서로 나누어 그래프로 조회
+																					<span>
+																						<a href="adminMenual.html#m3_3_1" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+													</div>
+											</div>
+
+											<div class="admin-menu-block">
+													<div class="admin-menu-block-inner">
+
+															<div class="admin-menu-name">파일 유형별 </div>
+															
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 부서 검출 현황</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">부서 검출 현황(파일유형별)</p>
+																				<div class="tooltip-pop-conts">
+																					각 파일유형별 검출 건수를 부서로 나누어 그래프로 조회
+																					<span>
+																						<a href="adminMenual.html#m3_4_1" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+													</div>
+											</div>
+
+											<div class="admin-menu-block">
+													<div class="admin-menu-block-inner">
+
+															<div class="admin-menu-name">출력 </div>
+															
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 기간별 출력 현황</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">기간별 출력현황(출력)</p>
+																				<div class="tooltip-pop-conts">
+																					기간별로 부서 및 사용자의 출력 페이지 수를 그래프로 조회
+																					<span>
+																						<a href="adminMenual.html#m3_5_1" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+													</div>
+											</div>
+
+											<div class="admin-menu-block">
+													<div class="admin-menu-block-inner">
+
+															<div class="admin-menu-name">랜섬웨어</div>
+															
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 기간별 검출 현황</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">기간별 검출현황(랜섬웨어)</p>
+																				<div class="tooltip-pop-conts">
+																					기간별로 부서 및 사용자의 랜섬웨어 검출 수를 그래프로 조회
+																					<span>
+																						<a href="adminMenual.html#m3_6_1" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+													</div>
+											</div>
+
+									</div>
+									<!-- 3_admin-menu e -->
+
+
+									<!-- 4_admin-menu s -->
+									<div class="admin-menu">
+											<div class="admin-menu-title">
+												리포트
+											</div>
+
+											<div class="admin-menu-block admin-menu-block-first">
+													<div class="admin-menu-block-inner">
+
+															<div class="admin-menu-name"> 검사 현황</div>
+															
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 검사 미실행 사용자</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">검사 미실행 사용자(검사현황)</p>
+																				<div class="tooltip-pop-conts">
+																					사용자별 클라이언트의 상태 및 최종로그인 시간 및 최근 검사 일시를 조회 및 목록 다운로드
+																					<span>
+																						<a href="adminMenual.html#m4_1_1" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+													</div>
+											</div>
+
+											<div class="admin-menu-block">
+													<div class="admin-menu-block-inner">
+
+															<div class="admin-menu-name">검출 현황</div>
+															
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 사용자별 검출 현황</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">사용자별 검출현황(검출현황)</p>
+																				<div class="tooltip-pop-conts">
+																					사용자별 검출 파일수, 검출 패턴 유형수, 검출 패턴수를 조회 및 목록 다운로드
+																					<span>
+																						<a href="adminMenual.html#m4_2_1" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 부서별 검출 현황</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">부서별 검출현황(검출현황)</p>
+																				<div class="tooltip-pop-conts">
+																					부서별 검출 사용자수, 검출 파일수, 검출 패천 유형수, 검출 패턴수를 조회 및 목록 다운로드
+																					<span>
+																						<a href="adminMenual.html#m4_2_2" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+													</div>
+											</div>
+
+											<div class="admin-menu-block">
+													<div class="admin-menu-block-inner">
+
+															<div class="admin-menu-name">검출 파일</div>
+															
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 검출 파일 목록</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">검출파일 목록(검출파일)</p>
+																				<div class="tooltip-pop-conts">
+																					각 사용자의 검출된 파일에 대해 파일명, 파일유형, 검출 패턴, 검사일, 처리상태를 조회 및 목록 다운로드
+																					<span>
+																						<a href="adminMenual.html#m4_3_1" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 사용자별 처리 현황</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">사용자별 처리현황(검출파일)</p>
+																				<div class="tooltip-pop-conts">
+																					사용자별 검출파일에 대한 미처리, 암호, 삭제 파일 건수를 조회 및 목록 다운로드
+																					<span>
+																						<a href="adminMenual.html#m4_3_2" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 부서별 처리 현황</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">부서별 처리현황(검출파일)</p>
+																				<div class="tooltip-pop-conts">
+																					부서별 검출파일에 대한 미처리, 암호, 삭제 파일 건수를 조회 및 목록 다운로드
+																					<span>
+																						<a href="adminMenual.html#m4_3_3" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+													</div>
+											</div>
+
+											<div class="admin-menu-block">
+													<div class="admin-menu-block-inner">
+
+															<div class="admin-menu-name">출력</div>
+															
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 사용자별 출력 현황</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">사용자별 출력현황(출력)</p>
+																				<div class="tooltip-pop-conts">
+																					사용자별 출력 페이지 수 조회 및 목록 다운로드
+																					<span>
+																						<a href="adminMenual.html#m4_4_1" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 부서별 출력 현황</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">부서별 출력현황(출력)</p>
+																				<div class="tooltip-pop-conts">
+																					부서별 출력 페이지 수 조회 및 목록 다운로드
+																					<span>
+																						<a href="adminMenual.html#m4_4_2" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+													</div>
+											</div>
+
+											<div class="admin-menu-block">
+													<div class="admin-menu-block-inner">
+
+															<div class="admin-menu-name">보안정책 현황 </div>
+															
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 월별 보안정책 현황</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">월별 보안정책 현황(보안정책현황)</p>
+																				<div class="tooltip-pop-conts">
+																					사업장의 모든 보안 현황을 월별 레포트 형식으로 다운로드 받을 수 있음
+																					<span>
+																						<a href="adminMenual.html#m4_5_1" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+													</div>
+											</div>
+
+									</div>
+									<!-- 4_admin-menu e -->
+
+
+									<!-- 5_admin-menu s -->
+									<div class="admin-menu">
+											<div class="admin-menu-title">
+												모니터링
+											</div>
+
+											<div class="admin-menu-block admin-menu-block-first">
+													<div class="admin-menu-block-inner">
+
+															<div class="admin-menu-name"> 사용자</div>
+															
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 접속 현황</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">접속 현황</p>
+																				<div class="tooltip-pop-conts">
+																					현재 사용자의 클라이언트 상태(설치, 서비스, 로그인, 종료)를 조회
+																					<span>
+																						<a href="adminMenual.html#m5_1_1" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 시스템 현황</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">시스템 현황</p>
+																				<div class="tooltip-pop-conts">
+																					각 사용자의 백신 및 OS업데이트 정보를 조회
+																					<span>
+																						<a href="adminMenual.html#m5_1_2" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+													</div>
+											</div>
+
+									</div>
+									<!-- 5_admin-menu e -->
+
+
+									<!-- 6_admin-menu s -->
+									<div class="admin-menu">
+											<div class="admin-menu-title">
+												소프트웨어 관리
+											</div>
+
+											<div class="admin-menu-block admin-menu-block-first">
+													<div class="admin-menu-block-inner">
+
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 조직별 설치 목록</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">조직별 설치 목록</p>
+																				<div class="tooltip-pop-conts">
+																					사용자별 설치된 소프트웨어 정보를 조회
+																					<span>
+																						<a href="adminMenual.html#m6_1_1" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+															<div class="admin-menu-list">
+																<p class="admin-menu-list-name">&gt; 소프트웨어별 설치 목록</p>
+																<div class="admin-pop">
+																	<div class="admin-pop-inner">
+																				<p class="tooltip-pop-title">소프트웨어별 설치 목록</p>
+																				<div class="tooltip-pop-conts">
+																					소프트웨어 정보별 설치된 사용자를 조회
+																					<span>
+																						<a href="adminMenual.html#m6_1_2" target="_blank">자세히보기</a>
+																					</span>
+																				</div>
+																	</div>
+																</div>
+															</div>
+
+													</div>
+											</div>
+
+									</div>
+									<!-- 6_admin-menu e -->
+
+							</div>
+
+							<!-- client-content-footer s -->
+							<div class="client-content-footer">
+								<div class="client-content-footer-inner">
+										<div class="client-content-footer-left">
+												알고자 하는 기능의 <br/>
+												해당버튼에 <span>마우스</span>를 <br/>
+												올려주세요.
+										</div>
+										<div class="client-content-footer-right">
+												상세기능을 검색할 경우 <br/>
+												<span>자세히 보기</span>를 클릭<br/>
+												[메뉴얼상 해당영역으로 이동]
+										</div>
+
+								</div>
+							</div>
+							<!-- client-content-footer e -->
+
+
+						</div>
+				</div>
+				<!-- admin-wrap e -->
+		</div>
+	</div>
+	<!----------------------------------------- container e -->
+
+
+	<!----------------------------------------- footer s -->
+	<div class="footer-wrap">
+		<div class="footer">
+			<div class="footer-inner">
+					<div class="footer-left">
+						<img src="images/footer_logo.png" alt=""/>
+					</div>
+					<div class="footer-center">
+						<div class="footer-center-info">
+							서울특별시 구로구 디지털로 272 한신아이티타워 8층 807호  |  대표 고준용  |  사업자등록번호 : 111-88-01739<br/>
+							TEL +82-2-3472-2136  |  FAX +82-2-6953-2137 <br/>
+						</div>
+						<div class="footer-center-copyright">
+							Copyright© SECURELINK Inc. All rights reserved.
+						</div>
+					</div>
+					<div class="footer-right">
+					</div>
+			</div>
+		</div>
+	</div>
+	<!----------------------------------------- footer e -->
+
+
+</div>
+
+</body>
+</html>

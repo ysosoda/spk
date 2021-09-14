@@ -1,0 +1,943 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>시큐어링크 SPK</title>
+
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<link href="style/style.css" rel='stylesheet' type='text/css'/>
+	<link href="style/font.css" rel='stylesheet' type='text/css'/>
+	
+	<script language="javascript" type="text/javascript">
+		$(document).ready(function($) {
+			$('.accordian-block').find('.accordian-title').click(function(){
+				
+				$(this).parent().toggleClass('active'); 
+				$(".accordian-block").not($(this).parent()).removeClass('active');
+
+				$(this).next().slideToggle(150);
+				$(".accordian-content").not($(this).next()).slideUp(150);
+
+			});
+		});
+	</script>
+</head>
+
+<body >
+
+<div class="wrap">
+
+	<!----------------------------------------- header s -->
+	<div class="header">
+		<div class="header-inner">
+				<h1><a href="index.html"><img src="images/logo.png" alt=""/></a></h1>			
+				<span class="header-txt1"><img src="images/header_txt1.png" alt=""/></span>
+				<span class="header-txt2"><img src="images/header_txt2.png" alt=""/></span> 
+		</div>
+	</div>
+	<!----------------------------------------- header e -->
+
+	<!----------------------------------------- menu s -->
+	<div class="menu">
+		<div class="menu-inner">
+				<div class="menu-row">
+					<div class="menu-c"><a href="index.html">소개</a></div>
+					<div class="menu-c"><a href="main_function.html">주요기능</a></div>
+					<div class="menu-c active"><a href="qna.html">주요 고객질문</a></div>
+					<div class="menu-c"><a href="client.html">클라이언트</a></div>
+					<div class="menu-c"><a href="client_menual.html">클라이언트 매뉴얼</a></div>
+					<div class="menu-c"><a href="admin.html">관리자</a></div>
+					<div class="menu-c"><a href="admin_menual.html">관리자 매뉴얼</a></div>
+				</div> 
+		</div>
+	</div>
+	<!----------------------------------------- menu e -->
+
+	<!----------------------------------------- container s -->
+	<div class="container">
+		<div class="container-inner">
+				<!-- qna-wrap s -->
+				<div class="qna-wrap">
+						
+						<div class="gallery-wrap">
+							<div class="img-full">
+								<img src="images/gallery_img.png" alt=""/>
+							</div>
+							<div class="gallery-content">
+								<p><img src="images/gallery_txt_qna.png" alt="" /></p>
+								<div>
+									<span>개인정보보호솔루션(SPK)</span><br/>
+									업무 효율성을 저해하지 않는 편의성과 관리 실효성을 극대화
+								</div>
+							</div>
+						</div>
+
+						<!-------------------------------------------------- 1_qna-accordian s -->
+						<div class="qna-accordian">
+								<div class="qna-accordian-title">
+									1. 암호화 
+								</div>
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">01</span>
+													<span class="accordian-title-name">암호화된 문서는 어떻게 사용하나요?</span>
+												</p>
+									</div>
+									<div class="accordian-content" >
+												<div class="accordian-content-inner ">
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																(Safe.PrivacyKeeper가 설치되어 있고, 로그인이 되어있다면) 암호화가 되었다고 해서 사용법이 달라지진 않습니다. <br/>
+																암호화된 문서도 사용자가 특정 작업을 하지 않아도 사용할 수 있도록 제공합니다.<br/>
+																단, Safe.PrivacyKeeper가 공식적으로 지원하는 확장자 및 프로그램이 있으니 참고 바랍니다. 
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">02</span>
+													<span class="accordian-title-name">
+														암호화된 파일을 외부(집, 거래처 등)에서 사용하려면 어떻게 해야 하나요?
+													</span>
+												</p>
+									</div>
+									<div class="accordian-content">
+												<div class="accordian-content-inner ">
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																복호화 기능을 이용하여 암호화된 파일을 복호화 후 USB나 메일로 복사 / 첨부합니다.<br/>
+																이 경우 복호화 권한을 가진 사용자는 자신이 복호화 할 수 있으며, <br/>
+																권한이 없다면 지정된 결재자에게 결재 승인을 받아야만 복호화가 됩니다.
+															</p>
+															<p class="accordian-check-list">
+																사용자 PC내 복호화된 파일은 10분 후 재암호화 되고,<br/>
+																복사/첨부한 파일은 영구적으로 복호화 상태로 사용이 가능합니다. 
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">03</span>
+													<span class="accordian-title-name">
+														결재자가 휴가 중이라면 어떻게 하나요?
+													</span>
+												</p>
+									</div>
+									<div class="accordian-content" >
+												<div class="accordian-content-inner ">
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																대체결재자 지정으로 복호화 결재를 할 수 있습니다. 
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">04</span>
+													<span class="accordian-title-name">
+														텍스트 파일이나 로그 파일도 암호화 되는 건가요? 
+													</span>
+												</p>
+									</div>
+									<div class="accordian-content">
+												<div class="accordian-content-inner ">
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																개인정보가 있는 파일은 검사 및 실시간 감시를 통하여 암호화 됩니다. 
+															</p>
+															<p class="accordian-check-list">
+																(AD인 경우) 텍스트 파일은 윈도우에서 사용하는 경우(EX.HOST)가 있어 <br/>
+																시스템에 영향을 줄 수 있기에 공식적인 지원대상이 아닙니다. <br/>
+																로그파일 또한 특정 로그파일은 프로그램 구동에 문제가 되기에 공식지원 대상이 아닙니다. <br/>
+																(구축형인 경우 요청 시 검토가능) 
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">05</span>
+													<span class="accordian-title-name">
+														복호화 결재 시 결재자가 결재요청 문서의 내용을 확인 할 수 있나요?  
+													</span>
+												</p>
+									</div>
+									<div class="accordian-content">
+												<div class="accordian-content-inner ">
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																개인정보보호법상 원본 및 원본 내용을 수집하는 것은 불가하며, <br/>
+																관리자 페이지에서 사용자가 결재요청 한 파일의 경로, 파일의 종류, 복호화 사유 등 확인이 가능합니다.<br/>
+																따라서 결재요청자는 복호화 사유를 기재할 때 해당 파일의 상세한 정보를 입력하여야 합니다. 
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">06</span>
+													<span class="accordian-title-name">
+														암호화는 언제 되나요? 
+													</span>
+												</p>
+									</div>
+									<div class="accordian-content">
+												<div class="accordian-content-inner ">
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																일반적인 문서는 암호화 하지 않으며, 개인정보의 검출 처리를 암호화로 설정한 상태에서 <br/>
+																문서 생성, 저장, 이동 시 실시간 검출을 통하여 개인정보가 있는 경우 설정된 처리 기능을 통하여 암호화 합니다.<br/>
+																최초 설치 시 전체검사를 통하여 개인정보가 있는 파일을 검출하여 암호화 가능. 
+															</p>
+															<p class="accordian-check-list">
+																(AD인 경우) 기본적으로 문서를 생성, 저장 시점에 자동암호화 합니다. 
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">07</span>
+													<span class="accordian-title-name">
+														개인정보가 없는 파일이지만 암호화를 할 수 있나요? 
+													</span>
+												</p>
+									</div>
+									<div class="accordian-content" >
+												<div class="accordian-content-inner ">
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																마우스 우클릭 쉘메뉴에서 파일암호화를 할 수 있습니다. 
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">08</span>
+													<span class="accordian-title-name">
+														암호화된 파일을 내부 다른 사용자에게 전달할 경우 복호화를 해서 전달해야 하나요?
+													</span>
+												</p>
+									</div>
+									<div class="accordian-content">
+												<div class="accordian-content-inner ">
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																Safe.PrivacyKeeper가 설치된 사용자는 암호화된 상태로 자유롭게 사용할 수 있습니다. 
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">09</span>
+													<span class="accordian-title-name">
+														암호화 된 파일을 보려면 항상 복호화를 해야 하나요? 
+													</span>
+												</p>
+									</div>
+									<div class="accordian-content">
+												<div class="accordian-content-inner ">
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																Safe.PrivacyKeeper가 설치된 사용자는 암호화된 상태로 자유롭게 사용할 수 있습니다. 
+															</p>
+															<p class="accordian-check-list">
+																암호화 된 파일의 외부 공유 시 복호화 진행 후 공유 하여야 합니다. 
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">10</span>
+													<span class="accordian-title-name">
+														파일이 암호호화가 되어 있지만 보안아이콘이 보이지 않습니다. 
+													</span>
+												</p>
+									</div>
+									<div class="accordian-content">
+												<div class="accordian-content-inner ">
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																마우스 우 클릭 후 쉘메뉴에서 아이콘 숨기기 처리가 되어 있는지 확인 바랍니다
+															</p>
+														</div>
+
+														<div class="accordian-content-txt color-type1" style="margin-top:0; ">
+															만약 아이콘 숨기기 처리가 되어 있지 않다면 하기의 
+															<span class="color-type1">조치가이드를 참조</span>하십시오.<br/>
+															(※ 해당 현상은 아이콘 표시 우선순위에 따라 보이지 않을 수 있습니다.)
+														</div>
+
+														<div class="qna-guide-wrap">
+																<div class="accordian-order ">
+																	<p class="accordian-order-title">조치가이드</p>
+																	<p class="accordian-order-list">
+																		<span class="accordian-order-numbering"><b>1</b></span>
+																		<span class="accordian-order-txt">
+																			시작-> 실행 -> 실행창에서 “regedit” 검색 <b class="color-type1">또는</b>
+																			 Ctrl + R 을 동시에 누른 후 “regedit” 검색
+																		</span>
+																	</p>
+																	<p class="accordian-order-list">
+																		<span class="accordian-order-numbering"><b>2</b></span>
+																		<span class="accordian-order-txt" >
+																			레지스트리 경로 이동 -> HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\
+																		</span>
+																	</p>
+																	<p class="accordian-order-list">
+																		<span class="accordian-order-numbering"><b>3</b></span>
+																		<span class="accordian-order-txt" >
+																			<b class="color-type2">0000zwSafeOviDe</b>
+																			 항목에서 오른쪽 마우스 클릭 -> 이름 바꾸기를 선택하고 이름 맨 앞에서부터 4칸 띄어쓰기 후 엔터.
+																		</span>
+																	</p>
+																	<p class="accordian-order-list">
+																		<span class="accordian-order-numbering"><b>4</b></span>
+																		<span class="accordian-order-txt" >
+																			<b class="color-type2">0000zwSafeOviEn</b>
+																			 항목에서 오른쪽 마우스 클릭 -> 이름 바꾸기를 선택하고 이름 맨 앞에서부터 4칸 띄어쓰기 후 엔터.
+																		</span>
+																	</p>
+																	<p class="accordian-order-list">
+																		<span class="accordian-order-numbering"><b>5</b></span>
+																		<span class="accordian-order-txt" >
+																			PC 재부팅 후 보안 아이콘 표시 여부 확인.
+																		</span>
+																	</p>
+																</div>
+
+																<div class="accordian-img">
+																	<img src="images/qna/qna1_10.png" alt=""/>
+																</div>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+						</div>
+						<!-------------------------------------------------- 1_qna-accordian e -->
+
+
+
+						<!-------------------------------------------------- 2_qna-accordian s -->
+						<div class="qna-accordian">
+								<div class="qna-accordian-title">
+									2. 개인정보 검출 
+								</div>
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">01</span>
+													<span class="accordian-title-name">다중 압축인 경우도 검출이 가능한가요? </span>
+												</p>
+									</div>
+									<div class="accordian-content" >
+												<div class="accordian-content-inner "> 
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																예. 다중 압축 파일도 검출에 대한 기능을 지원 합니다.
+															</p>
+															<p class="accordian-check-list">
+																압축 파일의 경우 이미지 내 개인정보는 검출 되지 않습니다.
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">02</span>
+													<span class="accordian-title-name">
+														개인정보 뿐만 아닌 특정 요청 정보도 검출이 가능한가요? 
+													</span>
+												</p>
+									</div>
+									<div class="accordian-content" >
+												<div class="accordian-content-inner ">
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																사원번호 등 사업장에서 사용하는 정보가 일련 된 규칙을 가지고 있으며,<br/>
+																정규식 표현이 가능하다면 검토 후 적용이 가능합니다. 
+															</p>
+															<p class="accordian-check-list">
+																단, 검증 코드가 존재 하지 않기 때문에 과탐이 있을 수 있습니다. 
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">03</span>
+													<span class="accordian-title-name">
+														개인정보 검출이 가능한 파일을 무엇이며, 지원하지 않는 경우는 어떤 포맷인가요? 
+													</span>
+												</p>
+									</div>
+									<div class="accordian-content" >
+												<div class="accordian-content-inner ">
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																검출 가능한 파일 
+															</p>
+														</div>
+														<div class="accordian-img">
+															<img src="images/qna/qna2_3.PNG" alt=""/>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">04</span>
+													<span class="accordian-title-name">
+														검출된 파일과 내역은 어디서 확인이 가능한가요? 
+													</span>
+												</p>
+									</div>
+									<div class="accordian-content">
+												<div class="accordian-content-inner ">
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																관리자 페이지 조회>검사>검사목록/검출목록에서 확인 가능 합니다. 
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">05</span>
+													<span class="accordian-title-name">
+														이미지 파일내 개인정보가 들어 있으나 검출이 되지 않습니다. 
+													</span>
+												</p>
+									</div>
+									<div class="accordian-content">
+												<div class="accordian-content-inner ">
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																이미지 파일이 기울기 5도이내, 노이즈10%이내, 300DPI(권장) 이상인지를 확인 부탁드립니다. 
+															</p>
+															<p class="accordian-check-list">
+																이미지파일 내 개인정보가 필기체일 경우 검출 되지 않습니다. 
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">06</span>
+													<span class="accordian-title-name">
+														 전체검사 시 소요되는 시간은 어느 정도이며, 업무에 지장을 주지는 않나요? 
+													</span>
+												</p>
+									</div>
+									<div class="accordian-content"  >
+												<div class="accordian-content-inner ">
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																개인PC에 존재하는 파일량에 따라 다르며, 검사 시 PC속도 저하가 있을 수 있으므로 <br/>
+																유휴시간을 활용하여 검사진행을 부탁드립니다.
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+						</div>
+						<!-------------------------------------------------- 2_qna-accordian e -->
+
+
+						<!-------------------------------------------------- 3_qna-accordian s -->
+						<div class="qna-accordian">
+								<div class="qna-accordian-title">
+									3. 매체/네트워크 제어
+								</div>
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">01</span>
+													<span class="accordian-title-name">제어가 가능한 매체는 어떤 것이 있나요? </span>
+												</p>
+									</div>
+									<div class="accordian-content" >
+												<div class="accordian-content-inner "> 
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																USB, 이동식디스크, CD/DVD가 있습니다. 
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">02</span>
+													<span class="accordian-title-name">
+														매체제어 USB 첨부(복사)차단 정책을 사용 중입니다. 특정 USB만 제어를 풀고 사용할 수 있나요? 
+													</span>
+												</p>
+									</div>
+									<div class="accordian-content" >
+												<div class="accordian-content-inner ">
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																특정 USB만 사용할 수 있도록 지정 가능 합니다. 
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">03</span>
+													<span class="accordian-title-name">
+														회사 내 메신저 사용이 많은데 메신저로 파일이 나가는 것을 방지할 수 있나요? 
+													</span>
+												</p>
+									</div>
+									<div class="accordian-content" >
+												<div class="accordian-content-inner ">
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																네트워크서비스제어를 통하여 메신저의 실제 프로그램 파일명(ex : KakaoTalk.exe)등록 후<br/>
+																첨부(복사)차단 설정으로 메신저의 첨부파일을 차단할 수 있습니다. 
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">04</span>
+													<span class="accordian-title-name">
+														특정 사이트의 제어도 가능한가요? 
+													</span>
+												</p>
+									</div>
+									<div class="accordian-content">
+												<div class="accordian-content-inner ">
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																Safe.PrivacyKeeper는 경량화 DLP로 특정 사이트 제어 지원은 하지 않습니다.
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">05</span>
+													<span class="accordian-title-name">
+														네트워크 로그 수집 시 모든 로그가 수집되나요? 
+													</span>
+												</p>
+									</div>
+									<div class="accordian-content" >
+												<div class="accordian-content-inner ">
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																네트워크 로그수집 기능 시 ID/PW나 사용기록의 로그 수집이 아닌 파일 이동의 로그수집 입니다. <br/>
+																메일, P2P, 메신저로 파일 이동 시 해당 파일의 경로 및 파일의 종류에 대한 로그를 수집합니다. 
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">06</span>
+													<span class="accordian-title-name">
+														  특정한 사이트의 접속을 차단할 수 있나요?
+													</span>
+												</p>
+									</div>
+									<div class="accordian-content">
+												<div class="accordian-content-inner ">
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																Safe.PrivacyKeeper는 경량화 DLP로 특정 사이트 제어 지원은 하지 않습니다. 
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+						</div>
+						<!-------------------------------------------------- 3_qna-accordian e -->
+
+
+						<!-------------------------------------------------- 4_qna-accordian s -->
+						<div class="qna-accordian">
+								<div class="qna-accordian-title">
+									4. 랜섬웨어
+								</div>
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">01</span>
+													<span class="accordian-title-name">랜섬웨어 경고창이 뜨면 어떻게 해야 하나요?</span>
+												</p>
+									</div>
+									<div class="accordian-content" >
+												<div class="accordian-content-inner "> 
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																신뢰할 수 없는 프로세스에 의한 경고창이면 (02-3472-2136)로 연락 부탁드립니다.
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+						</div>
+						<!-------------------------------------------------- 4_qna-accordian e -->
+
+
+						<!-------------------------------------------------- 5_qna-accordian s -->
+						<div class="qna-accordian">
+								<div class="qna-accordian-title">
+									5 기타
+								</div>
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">01</span>
+													<span class="accordian-title-name">사업장내 전체 사용자의 개인정보 검출내역 및 처리현황을 알고 싶습니다. </span>
+												</p>
+									</div>
+									<div class="accordian-content" >
+												<div class="accordian-content-inner "> 
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																관리자 페이지 조회>검출>검출목록 페이지를 통해서 검출내역 및 처리현황을 확인할 수 있습니다. .
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">02</span>
+													<span class="accordian-title-name">검출내역 및 처리현황을 다운로드 할 수 있나요?</span>
+												</p>
+									</div>
+									<div class="accordian-content" >
+												<div class="accordian-content-inner "> 
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																관리자 페이지 조회>검출>검출목록 페이지 우측 하단 “목록다운로드“를 통하여 <br/>
+																엑셀로 다운로드 받을 수 있습니다. 
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">03</span>
+													<span class="accordian-title-name">사업장 내 부서별로 보안정책을 다르게 할 수 있나요? </span>
+												</p>
+									</div>
+									<div class="accordian-content" >
+												<div class="accordian-content-inner "> 
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																관리자페이지 관리>클라이언트 관리>클라이언트 설정 페이지에서 <br/>
+																사업장 전체/부서/사용자별 보안정책을 설정할 수 있습니다. 
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">04</span>
+													<span class="accordian-title-name">파일을 복원이 되지 않도록 완전 삭제를 하고 싶습니다.  </span>
+												</p>
+									</div>
+									<div class="accordian-content" >
+												<div class="accordian-content-inner "> 
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																개인정보 검출 후 선택파일 삭제기능으로 삭제 할 수 있습니다. 
+															</p>
+															<p class="accordian-check-list">
+																마우스 우클릭 쉘메뉴에서 파일완전삭제를 할 수 있습니다. 
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">05</span>
+													<span class="accordian-title-name">여러 명이 사용하는 공용 PC에서 각자의 ID로 접속하여 사용할 수 있나요? </span>
+												</p>
+									</div>
+									<div class="accordian-content" >
+												<div class="accordian-content-inner "> 
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																사용자 각자가 부여 받은 ID로 로그인 후 사용할 수 있습니다.
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">06</span>
+													<span class="accordian-title-name">관리자가 정책을 변경했는데 사용자 PC에 적용이 되지 않습니다.  </span>
+												</p>
+									</div>
+									<div class="accordian-content" >
+												<div class="accordian-content-inner "> 
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																Safe.PrivacyKeeper는 다시 시작 할 때 서버와 통신 후 정책을 받아옵니다. 
+															</p>
+															<p class="accordian-check-list">
+																Safe.PrivacyKeeper 종료 후 재시작 
+															</p>
+															<p class="accordian-check-list">
+																Safe.PrivacyKeeper 트레이 아이콘 우클릭 후 다시 시작하기 
+															</p>
+															<p class="accordian-check-list color-type1 weight-600">
+																Safe.PrivacyKeeper 다시 시작 시 열려있는 문서는 닫아 주셔야 합니다. 
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+
+								<!-- accordian-block s -->
+								<div class="accordian-block ">
+									<div class="accordian-title ">
+												<p>
+													<span class="accordian-numbering">07</span>
+													<span class="accordian-title-name">강제검사와 예약검사의 구분은 무엇이고 누가 할 수 있나요? </span>
+												</p>
+									</div>
+									<div class="accordian-content">
+												<div class="accordian-content-inner "> 
+														<p class="qna-answer">Answer</p>
+
+														<div class="accordian-check">
+															<p class="accordian-check-list">
+																<span class="qna-float-left"><b>강제검사 :</b></span>
+																<span class="qna-float-right">
+																	관리자가 사업장 전체/부서/사용자별 검출파일 처리유형(미처리/암호화/삭제/개별정책), <br/>
+																	검사정밀도(빠른검사/정밀검사), 검사 대상 파일등을 등록 하여 진행 하며, <br/>
+																	강제검사는 관리자의 정책이므로 사용자가 임의로 중지 할 수 없습니다. 
+																</span>
+															</p>
+															<p class="accordian-check-list">
+																<b>예약검사 : </b>
+																관리자가 예약검사 설정을 통하여 사업장 전체/부서/사용자별로 매월/매주/매일/지정일검사 설정을 통하여 빠른검사를 진행 합니다. 
+															</p>
+														</div>
+												</div>
+									</div>
+								</div>
+								<!-- accordian-block e -->
+						</div>
+						<!-------------------------------------------------- 5_qna-accordian e -->
+
+
+
+				</div>
+				<!-- qna-wrap e -->
+		</div>
+	</div>
+	<!----------------------------------------- container e -->
+
+
+	<!----------------------------------------- footer s -->
+	<div class="footer-wrap">
+		<div class="footer">
+			<div class="footer-inner">
+					<div class="footer-left">
+						<img src="images/footer_logo.png" alt=""/>
+					</div>
+					<div class="footer-center">
+						<div class="footer-center-info">
+							서울특별시 구로구 디지털로 272 한신아이티타워 8층 807호  |  대표 고준용  |  사업자등록번호 : 111-88-01739<br/>
+							TEL +82-2-3472-2136  |  FAX +82-2-6953-2137 <br/>
+						</div>
+						<div class="footer-center-copyright">
+							Copyright© SECURELINK Inc. All rights reserved.
+						</div>
+					</div>
+					<div class="footer-right">
+					</div>
+			</div>
+		</div>
+	</div>
+	<!----------------------------------------- footer e -->
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,417 @@
+
+*, body
+{margin:0;
+padding:0;
+font-size:13px;
+font-family:"나눔고딕", NanumGothic;
+color:#333;}
+
+a
+{text-decoration: none;}
+
+h2
+{font-size:26px;
+font-weight:normal;}
+
+h3
+{font-size:24px;
+font-weight:normal;
+border-bottom: 1px solid #333; 
+padding-bottom:9px; 
+margin-bottom:35px; }
+
+ul
+{padding-left:20px;
+line-height:1.6; }
+
+
+.whole-wrap
+{width:100%;
+height:100%;
+background:#333; 
+padding:20px 0;}
+
+.page
+{width:100%;	
+min-width:810px;	
+min-height:700px;
+padding:0;}
+
+.page-inner
+{width:793px;
+/* min-height:1122px; */
+min-height:1002px;
+margin:0 auto 15px;
+background:#fff;
+padding:80px 70px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+position:relative;}
+
+/* page1 cover s */
+.page.cover .page-inner
+{height:100%;
+max-height:700px;}
+
+.logo-wrap
+{position:absolute; 
+top:50%;
+left:0;
+width:100%; }
+
+.logo-wrap-inner
+{position: relative;}
+
+.page.cover span
+{position:absolute;
+top:-181px;
+width:100%; 
+text-align:center;}
+/* cover e */
+
+/* list s */
+.list-row
+{display:inline-block; 
+width:100%; }
+
+.list-row span
+{display:inline-block; 
+float:left;
+height:26px;
+margin-top:12px; }
+
+.list-c1
+{width:38%;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;}
+
+.list-c1.list-title1
+{padding-left:10px; }
+
+
+.list-c1.list-title2
+{padding-left:15px; }
+
+.list-c1.list-title3
+{padding-left:25px; }
+
+
+.list-c2
+{width:54%; 
+border-bottom:1px dashed #7d7d7d;
+height:13px !important;
+font-weight:bold;}
+
+.list-c3
+{width:8%;
+text-align:center; }
+
+.page-inner h2
+{margin-bottom:26px; }
+
+.page-inner .list-row.list-m1
+{height:26px;
+margin:3px 0 9px 0;}
+
+.list-row.list-m1 span
+{font-size:17px;
+font-weight:bold;}
+
+.list-row.list-m1 span.smaller
+{font-size:18px;}
+
+
+.list-row.list-s1
+{height:22px;
+margin-bottom:4px;}
+
+.list-row.list-s1 span
+{font-size:16px;}
+
+.list-row.list-ss1
+{height:22px;
+margin-bottom:4px;}
+
+.list-row.list-ss1 span
+{font-size:14px;}
+
+.list-row.list-sss1
+{height:22px;
+margin-bottom:3px;}
+
+.list-row.list-sss1 span
+{font-size:13px;}
+/* list e */
+
+
+/* common-header-footer s */
+.section-header
+{height:52px; 
+width:100%; 
+text-align:right; }
+
+.section-container
+{padding:20px 0 15px 0;}
+
+.section-footer
+{position:absolute;
+bottom:0; 
+left:0; 
+width:100%;}
+
+.section-footer-inner
+{width:753px;
+position:relative;
+text-align:center; 
+background: #c0c0c0;
+padding:7px 0;
+border-radius:2px; 
+margin:0 auto 30px; }
+
+.section-footer span
+{position:absolute;
+top:7px; 
+right:10px;}
+/* common-header-footer e */
+
+
+.number-title
+{font-size:17px; 
+margin-bottom: 5px; 
+font-weight: bold;}
+
+table
+{border-collapse: collapse;
+border:1px solid #333; }
+
+table th
+{padding:8px 0;
+background:#cccccc;
+color:#fff;}
+
+table td
+{padding:4px 0;
+line-height: 1.4;}
+
+.border-right
+{border-right:1px solid #333;}
+
+.border-bottom
+{border-bottom:1px solid #333;}
+
+.padding-left
+{padding-left: 10px;}
+
+.text-align-center
+{text-align:center; }
+
+.line-height-16
+{line-height: 1.6; }
+
+.line-height-14
+{line-height: 1.4; }
+
+.font-weight-bold
+{font-weight: bold;}
+
+.img-center
+{text-align:center; }
+
+.img-center img
+{max-width:100%;}
+
+.section-row
+{display: inline-block; 
+width:100%; }
+
+.margin-top-15
+{margin-top:15px; }
+
+.font-size-15
+{font-size:15px; }
+
+.padding-left-20
+{padding-left:20px; 
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;}
+
+.color-blue
+{color:#2368db; }
+
+.color-red
+{color:#f51818; }
+
+.img-border img
+{border:1px solid #707070; 
+border-radius:3px; }
+
+.img-text
+{margin-top:9px; 
+font-size:12px; 
+font-weight:bold; }
+
+.img-smaller img
+{width:70%; }
+
+/* page5 s */
+.page5-conts ul li 
+{margin-bottom:15px; }
+
+.page5-conts-block1
+{margin-bottom:60px;}
+
+.page5-img1 img
+{width:430px;}
+/* page5 e */
+
+
+/* page6 s */
+.page6-conts table
+{margin-top:20px; }
+
+.page6-conts-block1
+{margin-bottom:40px;}
+/* page6 e */
+
+
+/* page7 s */
+.page7-conts-block1
+{margin-bottom:40px;}
+
+.page7-conts-block2
+{margin:40px 0 0 0;}
+/* page7 e */
+
+/* page8 s */
+.page8-conts-block1 div
+{margin:15px 0 40px 0;}
+/* page8 e */
+
+
+/* page9 s */
+.page9-conts-block1
+{margin:12px 0;}
+/* page9 e */
+
+/* page10 e */
+.page10-conts-block1
+{margin:0 0 40px 0;}
+
+.page10-conts-block2 table
+{margin-top:20px; }
+/* page10 e */
+
+/* page11 s */
+.page11-conts-block1,
+.page11-conts-block2,
+.page11-conts-block3
+{margin-bottom:40px; }
+/* page11 e */
+
+
+/* page12 s */
+.page12-conts-block2
+{margin-top:40px; }
+/* page12 e */
+
+/* page13 s */
+.page13-conts-block2
+{margin-top:35px; }
+/* page13 e */
+
+
+/* page14 s */
+.page14-conts-block2
+{margin-top:35px; }
+/* page14 e */
+
+
+/* page15 s */
+.page15-conts-block2,
+.page15-conts-block3
+{margin-top:35px; }
+/* page15 e */
+
+/* page20 e */
+.page20-conts-block2
+{margin-top:35px; }
+/* page20 e */
+
+/* page25 e */
+.page25-conts-block2
+{margin-top:35px; }
+/* page25 e */
+
+.page26-conts-block2
+{margin-top:35px; }
+
+.page29-conts-block2
+{margin-top:35px; }
+
+.page32-conts-block2
+{margin-top:35px; }
+
+.page36-conts-block2
+{margin-top:35px; }
+
+.page39-conts-block2
+{margin-top:35px; }
+
+.page44-conts-block2
+{margin-top:35px; }
+
+.page45-conts-block2
+{margin-top:35px; }
+
+.page46-conts-block2
+{margin-top:35px; }
+
+.page48-conts-block2
+{margin-top:35px; }
+
+.page50-conts-block2
+{margin-top:35px; }
+
+.page51-conts-block2
+{margin-top:35px; }
+
+.page52-conts-block2
+{margin-top:35px; }
+
+.page53-conts-block2
+{margin-top:35px; }
+
+.page56-conts-block2
+{margin-top:35px; }
+
+.page57-conts-block2
+{margin-top:35px; }
+
+.page59-conts-block2
+{margin-top:35px; }
+
+.page60-conts-block2
+{margin-top:35px; }
+
+.page61-conts-block2
+{margin-top:35px; }
+
+.page62-conts-block2,
+.page62-conts-block3
+{margin-top:35px; }
+
+.page63-conts-block2
+{margin-top:35px; }
+
+.page64-conts-block2,
+.page64-conts-block3
+{margin-top:35px; }
+
+.page65-conts-block2
+{margin-top:35px; }
+
+.page66-conts-block2
+{margin-top:35px; }
